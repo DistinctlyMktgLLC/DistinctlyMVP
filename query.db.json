@@ -1,0 +1,34 @@
+{
+    "queries": [
+        {
+            "question": "How do income levels relate to decision styles?",
+            "pivot_file": "data/pivots/income_pivot.csv",
+            "description": "Provides a summary of how different income levels correlate with decision-making styles."
+        },
+        {
+            "question": "How does family influence impact decision styles?",
+            "pivot_file": "data/pivots/family_influence_pivot.csv",
+            "description": "Shows how different family influence levels relate to decision-making styles."
+        },
+        {
+            "question": "How do decision styles change over time?",
+            "pivot_file": "data/pivots/temporal_pivot.csv",
+            "description": "Shows how decision-making styles vary across different years and months."
+        },
+        {
+            "question": "Which traits are linked to decision-making styles?",
+            "pivot_file": "data/pivots/behavioral_insights_pivot.csv",
+            "description": "Shows how traits like delayed gratification and reliance on gut feelings influence decision-making."
+        },
+        {
+            "question": "Where are specific decision styles most common?",
+            "pivot_file": "data/pivots/geographical_pivot.csv",
+            "description": "Provides geographical insights on where specific decision styles and income levels are most prevalent."
+        },
+        {
+            "question": "How do tendencies and income levels correlate with family influence?",
+            "pivot_file": "data/pivots/segment_influence_pivot.csv",
+            "description": "Shows the influence of income level and tendencies on family-influenced decision-making."
+        }
+    ]
+}
