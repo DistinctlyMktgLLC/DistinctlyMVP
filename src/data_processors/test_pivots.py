@@ -13,14 +13,18 @@ def test_pivot_generation():
         print(f"Attempting to load data from: {data_file}")
         df = pd.read_csv(data_file)
         print("Data loaded successfully")
+        print(f"Loaded {len(df)} rows of data")
+        print(f"Columns available: {df.columns.tolist()}")
         
         # Generate pivots
+        print("\nGenerating pivots...")
         pivots = initialize_pivot_system(df)
         
         # Check results
+        print("\nPivot Generation Results:")
         for name, pivot in pivots.items():
             if pivot is not None:
-                print(f"{name} pivot generated successfully")
+                print(f"{name} pivot generated successfully with shape {pivot.shape}")
             else:
                 print(f"Failed to generate {name} pivot")
                 
