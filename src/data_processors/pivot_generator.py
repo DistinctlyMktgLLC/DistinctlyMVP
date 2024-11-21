@@ -10,7 +10,8 @@ class PivotGenerator:
             df (pd.DataFrame): Input DataFrame with PeopleFindR data
         """
         self.df = df
-        self.pivot_path = Path('data/pivots')
+        # Note the capital 'D' in 'Data'
+        self.pivot_path = Path('Data/pivots')
         self.pivot_path.mkdir(parents=True, exist_ok=True)
     
     def create_behavioral_pivot(self):
